@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft outer glow -->
+    <path android:pathData="M18,54 a36,36,0,1,0,72,0 a36,36,0,1,0,-72,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="36">
+                <item android:color="#00000000" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="0.55" />
+                <item android:color="#25FF8C00" android:offset="0.72" />
+                <item android:color="#10FF6D00" android:offset="0.88" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Corona ring (bright amber/gold) -->
+    <path android:pathData="M22,54 a32,32,0,1,0,64,0 a32,32,0,1,0,-64,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="32">
+                <item android:color="#00000000" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="0.65" />
+                <item android:color="#80FF8C00" android:offset="0.70" />
+                <item android:color="#FFFFA726" android:offset="0.75" />
+                <item android:color="#FFFFC107" android:offset="0.78" />
+                <item android:color="#FFFFA726" android:offset="0.80" />
+                <item android:color="#CCFF8C00" android:offset="0.84" />
+                <item android:color="#40E65100" android:offset="0.92" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dark eclipse body -->
+    <path
+        android:fillColor="#0D0D1A"
+        android:pathData="M31,54 a23,23,0,1,0,46,0 a23,23,0,1,0,-46,0z" />
+
+    <!-- Subtle inner rim glow -->
+    <path android:pathData="M31,54 a23,23,0,1,0,46,0 a23,23,0,1,0,-46,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="23">
+                <item android:color="#00000000" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="0.88" />
+                <item android:color="#18FFA726" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Red play button (rounded rectangle) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M45,36 L63,36 Q67,36,67,40 L67,52 Q67,56,63,56 L45,56 Q41,56,41,52 L41,40 Q41,36,45,36 Z" />
+
+    <!-- White play triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,40 L61,46 L49,52 Z" />
+
+    <!-- White download arrow (shaft + arrowhead) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,58 L56,58 L56,62 L62,62 L54,70 L46,62 L52,62 Z" />
+
+    <!-- White download tray -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,71.5 L63,71.5 L63,73 L45,73 Z" />
+</vector>
